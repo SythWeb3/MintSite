@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 * {
     margin: auto;
 }
@@ -8,16 +10,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,189,1) 50%, rgba(69,197,252,1) 100%);
+    
+}
+
+.heading {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3rem;
+    box-shadow: 0 0 0 0 black inset;
+}
+
+.heading:hover {
+    box-shadow: 500px 0 0 0 black inset;
 }
 
 .body {
     width: 100%;
     height: 80vh;
-    background-color: rgb(226, 243, 153);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,189,1) 50%, rgba(69,197,252,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,19 +38,32 @@ header {
     width: 60vh;
     height: 65vh;
     border-radius: 25px;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(69,197,252,1) 0%, rgba(253,29,189,1) 50%, rgba(131,58,180,1) 100%);
+    box-shadow: 0 0 0 0 black inset;
+}
+
+.mintback:hover {
+    box-shadow: 450px 0 0 0 black inset;
 }
 
 footer {
     width: 100%;
     height: 10vh;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,189,1) 50%, rgba(69,197,252,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot {
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 0 0 0 black inset;
+}
+
+.foot:hover {
+    box-shadow: 400px 0 0 0 black inset;
 }
 
 #spooky {
@@ -53,19 +77,25 @@ footer {
 
 button {
     font-size: 20px;
-    background-color: rgb(226, 243, 153);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,189,1) 50%, rgba(69,197,252,1) 100%);
     border-radius: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0;
+    border: 2px solid white;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 4vh;
+    
 }
 
 .btn button:hover {
     cursor: pointer;
-    background-color: white;
+    background: black;
+    
+}
+
+a {
+    text-decoration: none;
 }
