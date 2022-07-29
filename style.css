@@ -76,7 +76,7 @@ footer {
 }
 
 button {
-    font-size: 20px;
+    font-size: 1rem;
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 189, 1) 50%, rgba(69, 197, 252, 1) 100%);
     border-radius: 100px;
     color: rgb(255, 255, 255);
@@ -85,7 +85,8 @@ button {
     align-items: center;
     border: 2px solid white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5vh;
+    margin-top: 3vh;
+    padding: 1rem;
 
 }
 
