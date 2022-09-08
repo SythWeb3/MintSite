@@ -44,6 +44,8 @@ header {
     border-radius: 25px;
     background-color: #68ffc2;
     box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 .mintback:hover {
@@ -58,7 +60,12 @@ header {
     align-items: center;
     border-radius: 25px;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
+}
+
+#rampp-minting-button-042a7dff-ef67-4da7-8d62-d25619f0f4a6 {
+    width: 10vh;
+    height: 7vh;
 }
 
 footer {
