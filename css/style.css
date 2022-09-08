@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap');
 
 * {
     margin: auto;
+}
+
+body {
+    display: block;
+    background: linear-gradient(90deg, rgba(104,255,194,1) 0%, rgba(255,255,255,1) 44%, rgba(26,255,205,1) 100%);
 }
 
 header {
@@ -10,25 +15,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 189, 1) 50%, rgba(69, 197, 252, 1) 100%);
-
+    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
 }
 
 .heading {
-    color: white;
+    color: #68ffc2;
     font-family: 'Archivo Black', sans-serif;
     font-size: 3rem;
-    box-shadow: 0 0 0 0 black inset;
+    box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
 }
 
 .heading:hover {
-    box-shadow: 500px 0 0 0 black inset;
+    box-shadow: 500px 0 0 0 rgb(42, 42, 42) inset;
 }
 
 .body {
     width: 100%;
     height: 75vh;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 189, 1) 50%, rgba(69, 197, 252, 1) 100%);
+    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,12 +42,12 @@ header {
     width: 60vh;
     height: 65vh;
     border-radius: 25px;
-    background: linear-gradient(90deg, rgba(69, 197, 252, 1) 0%, rgba(253, 29, 189, 1) 50%, rgba(131, 58, 180, 1) 100%);
-    box-shadow: 0 0 0 0 black inset;
+    background-color: #68ffc2;
+    box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
 }
 
 .mintback:hover {
-    box-shadow: 450px 0 0 0 black inset;
+    box-shadow: 450px 0 0 0 rgb(42, 42, 42) inset;
 }
 
 #spooky {
@@ -52,30 +56,32 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
-    margin-bottom: 4vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 footer {
-    width: 100%;
+    width: 100%; 
     height: 10vh;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 189, 1) 50%, rgba(69, 197, 252, 1) 100%);
+    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:
 }
 
 .foot {
-    color: white;
-    font-size: 20px;
+    color: #68ffc2;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .foot:hover {
-    box-shadow: 400px 0 0 0 black inset;
+    box-shadow: 400px 0 0 0 rgb(42, 42, 42) inset;
 }
 
 a {
-    color: white;
+    color: #68ffc2;
     text-decoration: none;
 }
