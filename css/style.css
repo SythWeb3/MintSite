@@ -84,10 +84,6 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-.foot:hover {
-    box-shadow: 400px 0 0 0 rgb(42, 42, 42) inset;
-}
-
 a {
     color: #68ffc2;
     text-decoration: none;
