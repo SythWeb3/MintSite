@@ -6,7 +6,7 @@
 
 body {
     display: block;
-    background: linear-gradient(90deg, rgba(104,255,194,1) 0%, rgba(255,255,255,1) 44%, rgba(26,255,205,1) 100%);
+    background: #999c67;
 }
 
 header {
@@ -15,13 +15,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
 }
 
 .heading {
-    color: #68ffc2;
+    color: #dedede;
     font-family: 'Archivo Black', sans-serif;
-    font-size: 3rem;
+    font-size: 2.6rem;
     box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
 }
 
@@ -32,17 +31,16 @@ header {
 .body {
     width: 100%;
     height: 75vh;
-    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mintback {
-    width: 60vh;
+    width: 55vh;
     height: 65vh;
     border-radius: 25px;
-    background-color: #68ffc2;
+    background-color: #dedede;
     box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
     padding-left: 2vh;
     padding-right: 2vh;
@@ -71,19 +69,12 @@ header {
 footer {
     width: 100%; 
     height: 10vh;
-    /*background-image: linear-gradient(to right, #fc5c7d, #6a82fb);*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foot {
-    color: #68ffc2;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    color: #68ffc2;
-    text-decoration: none;
+.logo {
+    width: 40px;
+    height: 40px;
 }
