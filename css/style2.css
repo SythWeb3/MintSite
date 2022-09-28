@@ -2,7 +2,6 @@
 
 * {
     margin: auto;
-    padding: auto;
 }
 
 body {
@@ -26,7 +25,7 @@ header {
 }
 
 .heading:hover {
-    box-shadow: 45vh 0 0 0 rgb(42, 42, 42) inset;
+    box-shadow: 500px 0 0 0 rgb(42, 42, 42) inset;
 }
 
 .body {
@@ -35,36 +34,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.mintback {
-    width: 55vh;
-    height: 65vh;
-    border-radius: 25px;
-    background-color: #dedede;
-    box-shadow: 0 0 0 0 rgb(42, 42, 42) inset;
-    padding-left: 2vh;
-    padding-right: 2vh;
-}
-
-.mintback:hover {
-    box-shadow: 60vh 0 0 0 rgb(42, 42, 42) inset;
-}
-
-#spooky {
-    width: 45vh;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    margin-top: 5vh;
-    margin-bottom: 4vh;
-}
-
-#rampp-minting-button-042a7dff-ef67-4da7-8d62-d25619f0f4a6 {
-    width: 10vh;
-    height: 7vh;
+    font-family: Roboto;
+    font-size: 5vh;
+    color: white;
 }
 
 footer {
