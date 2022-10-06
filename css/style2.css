@@ -25,7 +25,7 @@ header {
 }
 
 .heading:hover {
-    box-shadow: 45vh 0 0 0 rgb(42, 42, 42) inset;
+    box-shadow: 100vh 0 0 0 rgb(42, 42, 42) inset;
 }
 
 .body {
